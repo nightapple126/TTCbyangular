@@ -1,0 +1,305 @@
+[{
+  "id": "1010101",
+  "name": "Product One",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/one.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010102",
+  "name": "Product Two",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/two.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010103",
+  "name": "Product Three",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/three.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010104",
+  "name": "Product Four",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/four.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010105",
+  "name": "Product Five",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/five.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010106",
+  "name": "Product Six",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/six.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010107",
+  "name": "Product Seven",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/seven.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010108",
+  "name": "Product Eight",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/eight.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010109",
+  "name": "Product Nine",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/nine.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010110",
+  "name": "Product Ten",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/ten.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010111",
+  "name": "Product Eleven",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/eleven.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010112",
+  "name": "Product Twelve",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/twelve.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010113",
+  "name": "Product Thirteen",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/thirteen.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010114",
+  "name": "Product Fourteen",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/fourteen.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010115",
+  "name": "Product Fiftneen",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/fifteen.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010116",
+  "name": "Product Sixteen",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/sixteen.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010117",
+  "name": "Product Seventeen",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/seventeen.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010118",
+  "name": "Product Eighteen",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/eighteen.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}, {
+  "id": "1010119",
+  "name": "Product Ninteen",
+  "description": "Long sleeve white striped shirt",
+  "image": "assets/images/ninteen.jpeg",
+  "attributes": {
+    "color": "White",
+    "brand": "Louis Philippe",
+    "sleeve length": "Long",
+    "price band": "Regular",
+    "silhoutte": "Solid",
+    "fabric": "Cotton",
+    "collar": "Mandrian",
+    "price": 30.50,
+    "cost": 25.00
+  }
+}]

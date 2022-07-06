@@ -1,0 +1,7 @@
+<div class="life-cycle">
+  <div>Lifecycle flow</div>
+  Value : {{valueToChange}}
+  <p #localVariable>{{valueToChange}}</p>
+  <div>{{localVariable.textContent}}</div>
+  <button (click)="onClicked()">Change value</button>
+</div>

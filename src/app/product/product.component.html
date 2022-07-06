@@ -1,0 +1,14 @@
+<div class="product-tile">
+  <div class="image-container" [ngClass]="{'added': product.isAdded}">
+    <img src="{{product.image}}" [routerLink]="['/product']" (click)="onProductTileSelect(product)">
+  </div>
+  <div fxLayout="row" fxLayoutAlign="space-between center">
+    <div class="label" fxLayout="column" fxLayoutAlign="start start">
+      <div appHighlight>{{product.id}}</div>
+      <div class="description" [routerLink]="['/product']" (click)="onProductTileSelect(product)">{{product.name}}</div>
+    </div>
+    <div class="add-to-cart" fxLayout="row" fxLayoutAlign="center center">
+      <img src="assets/images/add.png" class="logo" (click)="onAddProduct(product)">
+    </div>
+  </div>
+</div>

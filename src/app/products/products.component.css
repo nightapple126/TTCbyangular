@@ -1,0 +1,17 @@
+.products-container {
+  overflow-y: auto;
+  display: inline-flex;
+  flex-flow: wrap;
+  height: calc(100vh - 100px);
+}
+
+.category {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  background: #005a94;
+  height: 28px;
+  padding: 8px;
+  line-height: 28px;
+  margin-top: 8px;
+}

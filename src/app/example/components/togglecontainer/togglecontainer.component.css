@@ -1,0 +1,13 @@
+:host {
+  box-sizing: border-box;
+  display: none;
+  right: 0;
+  top: 0;
+  padding: 8px;
+  background: aquamarine;
+  margin: 8px 0px 0px 8px;
+}
+
+:host.is-open {
+  display: block;
+}

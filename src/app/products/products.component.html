@@ -1,0 +1,7 @@
+<div class="breadcrum">
+  Category -> Clothing -> Mens Wear
+</div>
+<div class="products-container">
+  <product *ngFor="let product of products; index as i; first as isFirst" 
+  [product]="product" (onAddToCart)="addProductToCart(product)"></product>
+</div>

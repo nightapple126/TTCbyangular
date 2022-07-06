@@ -1,0 +1,10 @@
+:host {
+    display: none;
+    background-color: aqua;
+    border-radius: 4px;
+    height: 40px;
+    margin: 8px;
+}
+:host.visible{
+    display: block;
+}

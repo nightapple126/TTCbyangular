@@ -1,0 +1,36 @@
+<div class="stock">
+  <div fxLayout="row" fxLayoutAlign="space-between center">
+    <div>Stock Detail</div>
+    <div (click)="subscribeStock()" class="button" *ngIf="stock === undefined">
+      Subscribe
+    </div>
+
+    <div (click)="unsubscribeStock()" class="button danger" *ngIf="stock">
+      Unsubscribe
+    </div>
+  </div>
+
+  <div class="stock-detail" *ngIf="stock">
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div class="label counter">Counter:</div>
+      <div>{{stock.count}}</div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div class="label">Name:</div>
+      <div>{{stock.name}}</div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div class="label">Price:</div>
+      <div>{{stock.price|number:'1.2-2'}}</div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div class="label">Change:</div>
+      <div>{{stock.change| percent:'2.2-2'}}</div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div class="label">Volume:</div>
+      <div>{{stock.volume|number:'1.0-0'}}</div>
+    </div>
+  </div>
+
+</div>

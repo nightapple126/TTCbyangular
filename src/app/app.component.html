@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="app-content" fxLayout="column">
+  <div style="text-align:center" fxLayout="row" fxLayoutAlign="start center" class="app-toolbar">
+    <img class="logo" src="assets/images/store.png" [routerLink]="['/home']">
+    <div fxFlex class="label">
+      <span [routerLink]="['/home']">My Store</span>
+    </div>
+    <div class="cart">
+      <img class="logo" src="assets/images/cart.png" [routerLink]="['/cart']">
+      <div class="count">{{storeCartService.productCount}}</div>
+    </div>
+  </div>
+  <div class="greet" fxLayout="row" fxLayoutAlign="space-between center">
+    <div>
+      <session-timer></session-timer>
+    </div>
+    <img class="logo" src="assets/images/store.png" [routerLink]="['/legal']">
+    <div>Welcome User</div>
+    
+  </div>
+  <router-outlet flex></router-outlet>
+</div>

@@ -1,0 +1,35 @@
+<div class="example" fxLayout="row">
+  <div fxLayout="column" fxLayoutAlign="start center" class="example-tile">
+    <div class="align-center title">Cold Observables</div>
+    <div class="example">
+      <stock></stock>
+      <stock></stock>
+    </div>
+  </div>
+  <div>
+    <div class="align-center" class="example-tile">Inter component communication</div>
+    <div fxLayout="row">
+      <div class="example-tile">
+        <div class="align-center title">Using component reference</div>
+        <writer [reader]="readerComponent"></writer>
+        <reader #readerComponent></reader>
+      </div>
+
+      <div class="example-tile">
+        <div class="align-center title">Using shared service observable</div>
+        <communication></communication>
+      </div>
+      <div class="example-tile">
+        <div class="align-center title">Communicating through parent component</div>
+        <parent-comm></parent-comm>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <async-pipe></async-pipe>
+</div>
+
+<div class="example-tile">
+    <life-cycle (valueToChange)="value"></life-cycle>
+</div>

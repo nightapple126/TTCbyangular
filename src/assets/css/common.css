@@ -1,0 +1,55 @@
+body {
+  overflow: hidden;
+}
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.row .cell {
+  display: table-cell;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+.number {
+  text-align: right;
+}
+
+.breadcrum {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    background: #005a94;
+    height: 28px;
+    padding: 8px;
+    line-height: 28px;
+    margin-top: 8px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: darkslategray;
+  }
+
+  .button {
+    background-color: #0076AD;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 14px;
+  }
+  .button:hover {
+    background-color: #0048AD;
+  }
+
+  .align-center {
+    text-align: center;
+  }
+  .title {
+    line-height: 32px;
+    font-weight: 500;
+  }

@@ -1,0 +1,16 @@
+.example {
+    padding: 8px;
+    display: inline-flex;
+}
+
+.example stock {
+    margin: 8px;
+}
+
+.example-tile {
+    border: solid 1px slategrey;
+    background-color: beige;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+}

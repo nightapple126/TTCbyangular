@@ -1,0 +1,28 @@
+<div fxLayout="column">
+  <div class="breadcrum">
+    Category -> Clothing -> Mens Wear -> {{product.name}}
+  </div>
+  <div fxFlex>
+    <div class="image-container" fxLayout="row" fxLayoutAlign="center center">
+      <img src="{{product.image}}" alt="" srcset="">
+    </div>
+    <div class="table">
+      <div class="row">
+        <div class="cell label">Id</div>
+        <div class="cell value">{{product.id}}</div>
+      </div>
+      <div class="row">
+        <div class="cell label">Name</div>
+        <div class="cell value">{{product.name}}</div>
+      </div>
+      <div class="row">
+        <div class="cell label">Description</div>
+        <div class="cell value">{{product.description}}</div>
+      </div>
+      <div class="attributes row" *ngFor="let attributeId of objectKeys(product.attributes)">
+        <div class="cell label">{{attributeId | titlecase}}</div>
+        <div class="cell value">{{product.attributes[attributeId]}}</div>
+      </div>
+    </div>
+  </div>
+</div>

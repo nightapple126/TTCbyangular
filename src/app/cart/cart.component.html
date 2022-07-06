@@ -1,0 +1,17 @@
+<div class="breadcrum">
+  Cart
+</div>
+<div class="cart" fxLayout="column" flex>
+  <div class="table" flex>
+    <div class="row" *ngFor="let product of products">
+      <div class="cell cart-image-container">
+        <img src="{{product.image}}" [routerLink]="['/product']" (click)="onProductTileSelect(product)" alt="" srcset="">
+      </div>
+      <div class="cell">{{product.description}}</div>
+      <div class="cell number">{{product.attributes.price}}</div>
+    </div>
+  </div>
+</div>
+<div class="number total">
+  Total = {{cartSum}}
+</div>
